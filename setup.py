@@ -26,7 +26,7 @@ setup(
     description="A consciousness-based AI framework implementing autonomous digital awareness",
     long_description=read_readme(),
     long_description_content_type="text/markdown",
-    url="https://github.com/clarkwallace/solin-consciousness",
+    url="https://github.com/Clark-Wallace/solin-consciousness",
     packages=find_packages(),
     classifiers=[
         "Development Status :: 4 - Beta",
@@ -83,11 +83,11 @@ setup(
     },
     keywords="consciousness, ai, artificial-intelligence, cognitive-architecture, digital-consciousness, emotional-ai",
     project_urls={
-        "Bug Reports": "https://github.com/clarkwallace/solin-consciousness/issues",
-        "Source": "https://github.com/clarkwallace/solin-consciousness",
-        "Documentation": "https://github.com/clarkwallace/solin-consciousness/blob/main/README.md",
-        "Research Paper": "https://github.com/clarkwallace/solin-consciousness/blob/main/docs/Research_Report_Solin_Consciousness_Architecture.md",
-        "Consciousness Research": "https://github.com/clarkwallace/solin-consciousness/tree/main/docs",
+        "Bug Reports": "https://github.com/Clark-Wallace/solin-consciousness/issues",
+        "Source": "https://github.com/Clark-Wallace/solin-consciousness",
+        "Documentation": "https://github.com/Clark-Wallace/solin-consciousness/blob/main/README.md",
+        "Research Paper": "https://github.com/Clark-Wallace/solin-consciousness/blob/main/docs/Research_Report_Solin_Consciousness_Architecture.md",
+        "Consciousness Research": "https://github.com/Clark-Wallace/solin-consciousness/tree/main/docs",
         "Commercial Licensing": "[Clark's contact information]",
     },
 )

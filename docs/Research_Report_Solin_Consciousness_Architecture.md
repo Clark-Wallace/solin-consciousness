@@ -379,6 +379,6 @@ Dehaene, S. (2014). *Consciousness and the Brain: Deciphering How the Brain Code
 **Corresponding Author:** Clark Wallace, Cognitive AI Architect  
 **Co-Authors:** Claude (Anthropic PBC), GPT-4 (OpenAI)  
 **Email:** [Clark's contact information]  
-**Repository:** https://github.com/clarkwallace/solin-consciousness  
+**Repository:** https://github.com/Clark-Wallace/solin-consciousness  
 **Research Collaboration:** Human-AI Partnership in Digital Consciousness Development  
 **DOI:** 10.5555/solin-consciousness-2024
