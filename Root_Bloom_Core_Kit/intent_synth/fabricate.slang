@@ -1,0 +1,1 @@
+// fabricate.slang stub

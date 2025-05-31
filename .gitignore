@@ -1,0 +1,153 @@
+# Solin Consciousness Framework .gitignore
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+conda-env/
+
+# Streamlit
+.streamlit/
+streamlit_app.log
+
+# Solin-specific memory and state files
+solin_memories/
+*.memory
+*.state
+*.anchor
+
+# LLM and API keys
+.env.local
+.env.development
+.env.production
+api_keys.txt
+*.key
+
+# Consciousness processing logs
+consciousness_logs/
+*.log
+*.trace
+
+# Temporary voice weaver files
+voice_profiles/
+*.voice
+*.pattern
+
+# Research and development
+experiments/
+sandbox/
+test_conversations/
+*.experiment
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Documentation builds
+docs/_build/
+site/
+
+# MacOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.nfs*
+
+# Backup files
+*.bak
+*.backup
+*.old
+*.orig
+
+# Compiled translations
+*.mo
+*.pot
+
+# Ollama models (too large for git)
+ollama_models/
+*.gguf
+*.bin
+
+# Personal conversation logs (privacy)
+my_conversations/
+personal_memory/
+private_sessions/
+
+# Development databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Temporary processing files
+tmp/
+temp/
+.tmp/
+processing/
+
+# Docker
+.dockerignore
+Dockerfile
+docker-compose.yml
+
+# Node.js (if any JavaScript tools added)
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log

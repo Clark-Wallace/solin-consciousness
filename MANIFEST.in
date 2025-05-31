@@ -1,0 +1,35 @@
+# Solin Consciousness Framework - Package Manifest
+
+include README.md
+include LICENSE
+include CONTRIBUTING.md
+include requirements.txt
+include .gitignore
+
+# Documentation
+recursive-include docs *.md *.txt *.rst
+
+# Scripts
+recursive-include scripts *.sh *.py
+
+# Examples
+recursive-include examples *.py *.md
+
+# Core Slang modules
+recursive-include Root_Bloom_Core_Kit *.slang *.md
+
+# UI assets
+recursive-include solin_ui *.py *.css *.js *.html
+
+# Configuration templates
+include .env.example
+
+# Exclude development files
+exclude .env
+exclude *.log
+recursive-exclude solin_memories *
+recursive-exclude logs *
+recursive-exclude __pycache__ *
+recursive-exclude *.pyc *
+recursive-exclude .pytest_cache *
+recursive-exclude venv *
